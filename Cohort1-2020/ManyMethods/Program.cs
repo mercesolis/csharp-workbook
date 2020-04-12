@@ -42,7 +42,7 @@ namespace ManyMethods
         {
             Console.WriteLine("Cats or dogs?");
             string answer = Console.ReadLine();
-            Console.WriteLine("")
+            Console.WriteLine("");
         }
     }
 }

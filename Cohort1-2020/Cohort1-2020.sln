@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyMethods", "ManyMethods\ManyMethods.csproj", "{BD621172-FE2C-4BB3-B86F-1B11140D8A23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{B0DC0457-CCAB-4F97-B106-D2C0D5EA3FE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -13,5 +15,9 @@ Global
 		{BD621172-FE2C-4BB3-B86F-1B11140D8A23}.Debug|anycpu.Build.0 = Debug|anycpu
 		{BD621172-FE2C-4BB3-B86F-1B11140D8A23}.Release|anycpu.ActiveCfg = Release|anycpu
 		{BD621172-FE2C-4BB3-B86F-1B11140D8A23}.Release|anycpu.Build.0 = Release|anycpu
+		{B0DC0457-CCAB-4F97-B106-D2C0D5EA3FE6}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{B0DC0457-CCAB-4F97-B106-D2C0D5EA3FE6}.Debug|anycpu.Build.0 = Debug|anycpu
+		{B0DC0457-CCAB-4F97-B106-D2C0D5EA3FE6}.Release|anycpu.ActiveCfg = Release|anycpu
+		{B0DC0457-CCAB-4F97-B106-D2C0D5EA3FE6}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal

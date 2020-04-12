@@ -1,8 +1,21 @@
 ﻿<Properties StartupConfiguration="{BD621172-FE2C-4BB3-B86F-1B11140D8A23}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ManyMethods/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.RockPaperScissors FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RockPaperScissors/Program.cs">
     <Files>
       <File FileName="ManyMethods/Program.cs" Line="13" Column="1" />
+      <File FileName="RockPaperScissors/Program.cs" Line="9" Column="13" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cohort1-2020" expanded="True">
+            <Node name="RockPaperScissors" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ManyMethods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
