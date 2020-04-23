@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradebook", "Gradebook\Gradebook.csproj", "{6F489762-0B80-4C42-97AB-44A5F416607D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastermind", "Mastermind\Mastermind.csproj", "{120E78D1-362A-4B8D-9212-0DEA1141DEA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -25,5 +27,9 @@ Global
 		{6F489762-0B80-4C42-97AB-44A5F416607D}.Debug|anycpu.Build.0 = Debug|anycpu
 		{6F489762-0B80-4C42-97AB-44A5F416607D}.Release|anycpu.ActiveCfg = Release|anycpu
 		{6F489762-0B80-4C42-97AB-44A5F416607D}.Release|anycpu.Build.0 = Release|anycpu
+		{120E78D1-362A-4B8D-9212-0DEA1141DEA2}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{120E78D1-362A-4B8D-9212-0DEA1141DEA2}.Debug|anycpu.Build.0 = Debug|anycpu
+		{120E78D1-362A-4B8D-9212-0DEA1141DEA2}.Release|anycpu.ActiveCfg = Release|anycpu
+		{120E78D1-362A-4B8D-9212-0DEA1141DEA2}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal

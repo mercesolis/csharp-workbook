@@ -1,28 +1,18 @@
-﻿<Properties StartupConfiguration="{B0DC0457-CCAB-4F97-B106-D2C0D5EA3FE6}|Default">
-  <MonoDevelop.Ide.ItemProperties.RockPaperScissors FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Gradebook FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Gradebook/Program.cs">
+﻿<Properties StartupConfiguration="{120E78D1-362A-4B8D-9212-0DEA1141DEA2}|Default">
+  <MonoDevelop.Ide.ItemProperties.RockPaperScissors PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Gradebook PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ManyMethods/Program.cs">
     <Files>
-      <File FileName="ManyMethods/Program.cs" Line="13" Column="1" />
-      <File FileName="RockPaperScissors/Program.cs" Line="5" Column="5" />
-      <File FileName="Gradebook/Program.cs" Line="1" Column="1" />
+      <File FileName="ManyMethods/Program.cs" Line="19" Column="21" />
+      <File FileName="RockPaperScissors/Program.cs" />
+      <File FileName="Gradebook/Program.cs" />
+      <File FileName="Mastermind/Program.cs" Line="2" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Cohort1-2020" expanded="True">
-            <Node name="Gradebook" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-            <Node name="RockPaperScissors" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ManyMethods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.Mastermind PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
