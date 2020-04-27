@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradebook", "Gradebook\Grad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastermind", "Mastermind\Mastermind.csproj", "{120E78D1-362A-4B8D-9212-0DEA1141DEA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{36E506AB-EC57-4F4E-8878-1C65B39B3A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoCos", "PoCos\PoCos.csproj", "{844CF947-9131-416D-9101-A8A6BABD80B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -31,5 +35,13 @@ Global
 		{120E78D1-362A-4B8D-9212-0DEA1141DEA2}.Debug|anycpu.Build.0 = Debug|anycpu
 		{120E78D1-362A-4B8D-9212-0DEA1141DEA2}.Release|anycpu.ActiveCfg = Release|anycpu
 		{120E78D1-362A-4B8D-9212-0DEA1141DEA2}.Release|anycpu.Build.0 = Release|anycpu
+		{36E506AB-EC57-4F4E-8878-1C65B39B3A6B}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{36E506AB-EC57-4F4E-8878-1C65B39B3A6B}.Debug|anycpu.Build.0 = Debug|anycpu
+		{36E506AB-EC57-4F4E-8878-1C65B39B3A6B}.Release|anycpu.ActiveCfg = Release|anycpu
+		{36E506AB-EC57-4F4E-8878-1C65B39B3A6B}.Release|anycpu.Build.0 = Release|anycpu
+		{844CF947-9131-416D-9101-A8A6BABD80B3}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{844CF947-9131-416D-9101-A8A6BABD80B3}.Debug|anycpu.Build.0 = Debug|anycpu
+		{844CF947-9131-416D-9101-A8A6BABD80B3}.Release|anycpu.ActiveCfg = Release|anycpu
+		{844CF947-9131-416D-9101-A8A6BABD80B3}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
