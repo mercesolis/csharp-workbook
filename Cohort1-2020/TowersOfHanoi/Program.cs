@@ -6,7 +6,7 @@ namespace TowersOfHanoi
 
     class Program
     {
-        private static Dictionary<String, Stack<int>> board = new Dictionary<string, Stack<int>>();
+        private static Dictionary<string, Stack<int>> board = new Dictionary<string, Stack<int>>();
 
 
         static void Main(string[] args)
@@ -58,7 +58,8 @@ namespace TowersOfHanoi
 
         private static bool IsMoveValid(string from, string to)
         {
-            if (board[from].Count != 0 && (board[to].Count == 0 || board[from].Peek() < board[to].Peek()))
+            // cannot move from empty peg
+            if (board[from].Count != 0 && (board[to].Count == 0 || board[from].Peek() < board[to].Peek())) // checking if any disks on peg
             {
                 return true;
             }
@@ -73,7 +74,7 @@ namespace TowersOfHanoi
         //check if C has all the disks
         private static bool CheckWin()
         {
-            if (board["C"].Count == 4)
+            if (board["C"].Count == 4) //if C has all 4 disks, win
             {
                 return true;
             }
@@ -84,11 +85,12 @@ namespace TowersOfHanoi
 
         private static void PrintBoard()
         {
+            
             foreach (var item in board)
             {
                 Console.WriteLine($"\n{item.Key}: ");
                 var numbers = item.Value.ToArray();
-                for (int i = numbers.Length; i > 0; i--)
+                for (int i = numbers.Length; i > 0; i--)  //prints numbers in reverse
                 {
                     Console.WriteLine(numbers[i - 1] + " ");
                 }
