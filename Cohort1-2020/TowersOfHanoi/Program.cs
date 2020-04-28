@@ -11,15 +11,18 @@ namespace TowersOfHanoi
 
         static void Main(string[] args)
         {
-
+            //todo creating the board
             Stack<int> stack = new Stack<int>();
             stack.Push(4);
             stack.Push(3);
             stack.Push(2);
             stack.Push(1);
             board.Add("A", stack);
+            // B and C empty initially because all the disks will be on A
             board.Add("B", new Stack<int>());
             board.Add("C", new Stack<int>());
+
+
 
             do
             {
@@ -30,6 +33,8 @@ namespace TowersOfHanoi
                 Console.WriteLine("Enter the peg you want to move to:");
                 string to = Console.ReadLine().ToUpper();
 
+
+                // if move is valid, move the disk to the stack
                 if (IsMoveValid(from, to))
                 {
                     stack.Push(stack.Pop());
@@ -41,7 +46,7 @@ namespace TowersOfHanoi
                     Console.WriteLine("Press any key to continue.");
                     Console.ReadKey();
                 }
-            } while (!CheckWin());
+            } while (!CheckWin()); // loop
 
             Console.Clear();
             PrintBoard();
@@ -65,16 +70,17 @@ namespace TowersOfHanoi
 
         }
 
+        //check if C has all the disks
         private static bool CheckWin()
         {
-            if (board["C"].Count = 4)
+            if (board["C"].Count == 4)
             {
                 return true;
             }
+
             return false;
-
-
         }
+        
 
         private static void PrintBoard()
         {
