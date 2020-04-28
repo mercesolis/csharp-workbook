@@ -1,15 +1,15 @@
-﻿<Properties StartupConfiguration="{844CF947-9131-416D-9101-A8A6BABD80B3}|Default">
+﻿<Properties StartupConfiguration="{36E506AB-EC57-4F4E-8878-1C65B39B3A6B}|Default">
   <MonoDevelop.Ide.ItemProperties.RockPaperScissors PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Gradebook PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.PoCos PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mastermind/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TowersOfHanoi/Program.cs">
     <Files>
       <File FileName="ManyMethods/Program.cs" Line="19" Column="21" />
-      <File FileName="RockPaperScissors/Program.cs" Line="7" Column="47" />
-      <File FileName="Gradebook/Program.cs" Line="13" Column="85" />
-      <File FileName="Mastermind/Program.cs" Line="12" Column="1" />
-      <File FileName="TowersOfHanoi/Program.cs" Line="17" Column="50" />
-      <File FileName="PoCos/Program.cs" Line="20" Column="34" />
+      <File FileName="RockPaperScissors/Program.cs" />
+      <File FileName="Gradebook/Program.cs" />
+      <File FileName="Mastermind/Program.cs" />
+      <File FileName="TowersOfHanoi/Program.cs" Line="80" Column="1" />
+      <File FileName="PoCos/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,12 +17,12 @@
           <Node name="Cohort1-2020" expanded="True">
             <Node name="Gradebook" expanded="True" />
             <Node name="ManyMethods" expanded="True" />
-            <Node name="Mastermind" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Mastermind" expanded="True" />
             <Node name="PoCos" expanded="True" />
             <Node name="RockPaperScissors" expanded="True" />
-            <Node name="TowersOfHanoi" expanded="True" />
+            <Node name="TowersOfHanoi" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
