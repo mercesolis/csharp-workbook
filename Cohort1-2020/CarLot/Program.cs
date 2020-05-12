@@ -7,21 +7,21 @@ namespace CarLot
     {
         static void Main(string[] args)
         {
-            CarLot carlot1 = new CarLot("My Dream Car Lot");
+            CarLot carlot1 = new CarLot("My Dream Car Lot"); // creating my car lots
             CarLot carlot2 = new CarLot("My Actual Car Lot");
 
-            carlot1.AddVehicle(new Car("1234ABC", "BMW", "M8 Competition", 100_000, false, "Coupe", 4));
+            carlot1.AddVehicle(new Car("1234ABC", "BMW", "M8 Competition", 100_000, false, "Coupe", 4)); // car lot 1 contains...
             carlot1.AddVehicle(new Truck("4321CBA", "Mercedes Benz", "G63 AMG", 1_000, "6x6"));
 
-            carlot2.AddVehicle(new Car("0246XYZ", "Volkswagen", "Jetta", 11_000, false, "Sedan", 4));
+            carlot2.AddVehicle(new Car("0246XYZ", "Volkswagen", "Jetta", 11_000, false, "Sedan", 4)); // car lot 2 contains...
             carlot2.AddVehicle(new Truck("8747FJD", "Jeep", "Cherokee", 14_000, "SUV"));
 
-            foreach (var item in carlot1.GetVehicle())
+            foreach (var item in carlot1.GetVehicle()) // print contents of car lot 1
             {
                 item.PrintDetails();
             }
 
-            foreach (var item in carlot2.GetVehicle())
+            foreach (var item in carlot2.GetVehicle()) // print contentd of car lot 2
             {
                 item.PrintDetails();
             }
@@ -32,7 +32,7 @@ namespace CarLot
         }
     }
 
-    abstract class Vehicle
+    abstract class Vehicle // the "main" class?
     {
         public string LicenseNumber { get; set; }
         public string Make { get; set; }
@@ -53,7 +53,7 @@ namespace CarLot
             }
     }
 
-    class Car : Vehicle
+    class Car : Vehicle // subclass extends from Vehicle class
     {
         public bool IsElectric { get; set; }
         public string CarType { get; set; }
@@ -72,7 +72,7 @@ namespace CarLot
         
     }
 
-    class Truck : Vehicle
+    class Truck : Vehicle // subclass that extends from Vehicle class
     {
         public string BedSize { get; set; }
         public Truck(string license, string make, string model, decimal price, string size) : base(license, make, model, price)
@@ -88,7 +88,7 @@ namespace CarLot
 
     }
 
-    class CarLot
+    class CarLot // instantiating car lot 1 "dream car lot"
     {
         public string Name { get; set; }
         List<Vehicle> vehicles = new List<Vehicle>();
@@ -108,7 +108,7 @@ namespace CarLot
         }
     }
 
-    class CarLot2
+    class CarLot2 // instantiating car lot 2 "actual car lot"
     {
         public string Name { get; set; }
         List<Vehicle> vehicles = new List<Vehicle>();
