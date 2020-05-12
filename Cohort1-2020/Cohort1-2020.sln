@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigLatin", "PigLatin\PigLat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroes", "SuperHeroes\SuperHeroes.csproj", "{CEE3D97B-112C-4606-AFD1-EE07401D1D81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLot", "CarLot\CarLot.csproj", "{87E6B2D0-95B1-45E9-A1B6-2331D64D4B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingWith0", "SortingWith0\SortingWith0.csproj", "{254DE04D-CCF1-4949-B90E-4E6121062C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers", "Checkers\Checkers.csproj", "{D932130F-4F0E-4D5B-A023-316C6210DC20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -61,5 +67,17 @@ Global
 		{CEE3D97B-112C-4606-AFD1-EE07401D1D81}.Debug|anycpu.Build.0 = Debug|anycpu
 		{CEE3D97B-112C-4606-AFD1-EE07401D1D81}.Release|anycpu.ActiveCfg = Release|anycpu
 		{CEE3D97B-112C-4606-AFD1-EE07401D1D81}.Release|anycpu.Build.0 = Release|anycpu
+		{87E6B2D0-95B1-45E9-A1B6-2331D64D4B76}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{87E6B2D0-95B1-45E9-A1B6-2331D64D4B76}.Debug|anycpu.Build.0 = Debug|anycpu
+		{87E6B2D0-95B1-45E9-A1B6-2331D64D4B76}.Release|anycpu.ActiveCfg = Release|anycpu
+		{87E6B2D0-95B1-45E9-A1B6-2331D64D4B76}.Release|anycpu.Build.0 = Release|anycpu
+		{254DE04D-CCF1-4949-B90E-4E6121062C2C}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{254DE04D-CCF1-4949-B90E-4E6121062C2C}.Debug|anycpu.Build.0 = Debug|anycpu
+		{254DE04D-CCF1-4949-B90E-4E6121062C2C}.Release|anycpu.ActiveCfg = Release|anycpu
+		{254DE04D-CCF1-4949-B90E-4E6121062C2C}.Release|anycpu.Build.0 = Release|anycpu
+		{D932130F-4F0E-4D5B-A023-316C6210DC20}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{D932130F-4F0E-4D5B-A023-316C6210DC20}.Debug|anycpu.Build.0 = Debug|anycpu
+		{D932130F-4F0E-4D5B-A023-316C6210DC20}.Release|anycpu.ActiveCfg = Release|anycpu
+		{D932130F-4F0E-4D5B-A023-316C6210DC20}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
