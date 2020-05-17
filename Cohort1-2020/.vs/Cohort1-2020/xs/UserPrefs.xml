@@ -1,37 +1,39 @@
-﻿<Properties StartupConfiguration="{D932130F-4F0E-4D5B-A023-316C6210DC20}|Default">
+﻿<Properties StartupConfiguration="{22BF68CE-351E-4ADD-8EF3-2EA366F71D59}|Default">
+  <MonoDevelop.Ide.ItemProperties.ReverseAndDuplicateAnArray PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BooksInventory PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BooksDatabase PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.RockPaperScissors PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.EFTutorial PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Gradebook PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.PoCos PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FizzBuzz PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Checkers/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BooksInventory/Program.cs">
     <Files>
-      <File FileName="Gradebook/Program.cs" Line="1" Column="1" />
-      <File FileName="Mastermind/Program.cs" />
-      <File FileName="TowersOfHanoi/Program.cs" />
-      <File FileName="PoCos/Program.cs" />
-      <File FileName="TowersOfHanoi/README.md" />
-      <File FileName="SuperHeroes/Program.cs" />
-      <File FileName="CarLot/Program.cs" />
-      <File FileName="SortingWith0/Program.cs" />
-      <File FileName="Checkers/Program.cs" Line="10" Column="1" />
+      <File FileName="EFTutorial/Program.cs" Line="61" Column="1" IsPinned="True" />
+      <File FileName="BooksInventory/Program.cs" Line="57" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Cohort1-2020" expanded="True">
-            <Node name="CarLot" expanded="True" />
-            <Node name="Checkers" expanded="True">
+            <Node name="BooksDatabase" expanded="True" />
+            <Node name="BooksInventory" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="CarLot" expanded="True" />
+            <Node name="Checkers" expanded="True" />
+            <Node name="EFTutorial" expanded="True" />
             <Node name="FizzBuzz" expanded="True" />
             <Node name="Gradebook" expanded="True" />
             <Node name="ManyMethods" expanded="True" />
             <Node name="Mastermind" expanded="True" />
             <Node name="PigLatin" expanded="True" />
             <Node name="PoCos" expanded="True" />
+            <Node name="ReverseAndDuplicateAnArray" expanded="True" />
             <Node name="RockPaperScissors" expanded="True" />
             <Node name="SortingWith0" expanded="True" />
             <Node name="SuperHeroes" expanded="True" />
+            <Node name="ToDoItems" expanded="True" />
             <Node name="TowersOfHanoi" expanded="True" />
           </Node>
         </State>
@@ -40,10 +42,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Checkers PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.TowersOfHanoi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ToDoItems PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.SortingWith0 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.ManyMethods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CarLot FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CarLot PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.ItemProperties.PigLatin FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.SuperHeroes PreferredExecutionTarget="MonoDevelop.Default" />
