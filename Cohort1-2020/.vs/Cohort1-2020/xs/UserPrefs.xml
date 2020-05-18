@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{22BF68CE-351E-4ADD-8EF3-2EA366F71D59}|Default">
+﻿<Properties StartupConfiguration="{C5CC14B3-1F9C-4816-8736-910EB2143A31}|Default">
   <MonoDevelop.Ide.ItemProperties.ReverseAndDuplicateAnArray PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.BooksInventory PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.BooksDatabase PreferredExecutionTarget="MonoDevelop.Default" />
@@ -7,19 +7,17 @@
   <MonoDevelop.Ide.ItemProperties.Gradebook PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.PoCos PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FizzBuzz PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BooksInventory/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PigLatin/Program.cs">
     <Files>
-      <File FileName="EFTutorial/Program.cs" Line="61" Column="1" IsPinned="True" />
-      <File FileName="BooksInventory/Program.cs" Line="57" Column="44" />
+      <File FileName="BooksInventory/Program.cs" Line="26" Column="47" />
+      <File FileName="PigLatin/Program.cs" Line="7" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Cohort1-2020" expanded="True">
             <Node name="BooksDatabase" expanded="True" />
-            <Node name="BooksInventory" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="BooksInventory" expanded="True" />
             <Node name="CarLot" expanded="True" />
             <Node name="Checkers" expanded="True" />
             <Node name="EFTutorial" expanded="True" />
@@ -27,7 +25,9 @@
             <Node name="Gradebook" expanded="True" />
             <Node name="ManyMethods" expanded="True" />
             <Node name="Mastermind" expanded="True" />
-            <Node name="PigLatin" expanded="True" />
+            <Node name="PigLatin" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
             <Node name="PoCos" expanded="True" />
             <Node name="ReverseAndDuplicateAnArray" expanded="True" />
             <Node name="RockPaperScissors" expanded="True" />
@@ -48,7 +48,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CarLot PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.PigLatin FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.PigLatin PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.SuperHeroes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Mastermind PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
