@@ -30,8 +30,8 @@ namespace TodoApp1
                     var id = consoleUtils.Delete();
                     itemRepository.delete(id);
                     break;
-                /*case 3:
-                    var 
+                case 3:
+                    var pending 
                     displayPending();
                     break;
                 case 4:
@@ -46,7 +46,7 @@ namespace TodoApp1
                     break;
                 default:
                     Console.WriteLine("Invalid input");
-                    break;*/
+                    break;
             }
 
             //enter new items

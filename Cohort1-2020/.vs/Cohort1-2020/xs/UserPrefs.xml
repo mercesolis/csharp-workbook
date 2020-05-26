@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{120E78D1-362A-4B8D-9212-0DEA1141DEA2}|Default">
+﻿<Properties StartupConfiguration="{08DBE28E-7B22-471B-8A1D-850DCB0C900B}|Default">
   <MonoDevelop.Ide.ItemProperties.ReverseAndDuplicateAnArray PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.BooksInventory PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.BooksDatabase PreferredExecutionTarget="MonoDevelop.Default" />
@@ -7,24 +7,21 @@
   <MonoDevelop.Ide.ItemProperties.Gradebook PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.PoCos PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FizzBuzz PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SuperHeroes/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TodoApp-1/ConsoleUtils.cs">
     <Files>
-      <File FileName="TodoApp-1/Program.cs" Line="10" Column="25" />
+      <File FileName="TodoApp-1/Program.cs" Line="7" Column="47" />
       <File FileName="TodoApp-1/App.cs" Line="49" Column="29" />
       <File FileName="TodoApp-1/ItemRepository.cs" Line="25" Column="10" />
-      <File FileName="TodoApp-1/ConsoleUtils.cs" Line="21" Column="1" />
+      <File FileName="TodoApp-1/ConsoleUtils.cs" Line="58" Column="10" />
       <File FileName="TodoApp-1/ToDoItem.cs" Line="11" Column="45" />
       <File FileName="TodoApp-1/ItemContext.cs" Line="16" Column="30" />
-      <File FileName="ToDoList/Program.cs" Line="19" Column="56" />
-      <File FileName="SuperHeroes/Program.cs" Line="9" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Cohort1-2020" expanded="True">
-            <Node name="Mastermind" expanded="True" />
-            <Node name="SuperHeroes" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="TodoApp-1" expanded="True">
+              <Node name="ConsoleUtils.cs" selected="True" />
             </Node>
             <Node name="ToDoItems" expanded="True" />
           </Node>
@@ -39,6 +36,7 @@
   <MonoDevelop.Ide.ItemProperties.ManyMethods PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CarLot PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ticTacToe FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.ItemProperties.PigLatin PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.SuperHeroes PreferredExecutionTarget="MonoDevelop.Default" />

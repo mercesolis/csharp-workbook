@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp-1", "TodoApp-1\Todo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ticTacToe", "ticTacToe\ticTacToe.csproj", "{8F66E55B-CA0A-4EA9-9FE4-728B8C6FEC40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -121,5 +123,9 @@ Global
 		{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}.Debug|anycpu.Build.0 = Debug|anycpu
 		{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}.Release|anycpu.ActiveCfg = Release|anycpu
 		{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}.Release|anycpu.Build.0 = Release|anycpu
+		{8F66E55B-CA0A-4EA9-9FE4-728B8C6FEC40}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{8F66E55B-CA0A-4EA9-9FE4-728B8C6FEC40}.Debug|anycpu.Build.0 = Debug|anycpu
+		{8F66E55B-CA0A-4EA9-9FE4-728B8C6FEC40}.Release|anycpu.ActiveCfg = Release|anycpu
+		{8F66E55B-CA0A-4EA9-9FE4-728B8C6FEC40}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
