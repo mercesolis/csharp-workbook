@@ -7,49 +7,49 @@ namespace EFTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Student name: ");
+            Console.WriteLine("Task name: ");
             String name = Console.ReadLine();
-            Console.WriteLine("Student grade: ");
-            int grade = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Due date: ");
+            int date = Convert.ToInt32(Console.ReadLine());
 
-            Student s = new Student(name, grade);
+            Task t = new Task(name, date);
 
 
             StudentsContext context = new StudentsContext();
             context.Database.EnsureCreated();
-            context.students.Add(s);
+            context.students.Add(t);
             context.SaveChanges();
 
-            foreach(Student contextStudent in context.students)
+            foreach(Task contextStudent in context.students)
             {
-                Console.WriteLine("{0}: {1} has a grade of {2}", contextStudent.id, contextStudent.name, contextStudent.grade);
+                Console.WriteLine("{0}: {1}", contextStudent.id, contextStudent.name, contextStudent.date);
 
             }
 
-            Console.WriteLine("Student id to delete: ");
+            Console.WriteLine("Task id to delete: ");
             int idToDelete = Convert.ToInt32(Console.ReadLine());
 
-            Student studentToDelete = context.students.Find(idToDelete);
+            Task studentToDelete = context.students.Find(idToDelete);
             context.students.Remove(studentToDelete);
         }
     }
 
-    class Student
+    class Task
     {
         public int id { get; private set; }
         public String name { get; private set; }
-        public int grade { get; private set; }
+        public int date { get; private set; }
 
-        public Student(String name, int grade)
+        public Task(String name, int date)
         {
             this.name = name;
-            this.grade = grade;
+            this.date = date;
         }
     }
 
     class StudentsContext : DbContext
     {
-        public DbSet<Student> students { get; set; }
+        public DbSet<Task> students { get; set; }
 
         override protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

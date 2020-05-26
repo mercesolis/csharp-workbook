@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFTutorial", "EFTutorial\EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksInventory", "BooksInventory\BooksInventory.csproj", "{22BF68CE-351E-4ADD-8EF3-2EA366F71D59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp-1", "TodoApp-1\TodoApp-1.csproj", "{358670D0-B88D-49DF-A3F1-B9E26FAB3324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -109,5 +113,13 @@ Global
 		{22BF68CE-351E-4ADD-8EF3-2EA366F71D59}.Debug|anycpu.Build.0 = Debug|anycpu
 		{22BF68CE-351E-4ADD-8EF3-2EA366F71D59}.Release|anycpu.ActiveCfg = Release|anycpu
 		{22BF68CE-351E-4ADD-8EF3-2EA366F71D59}.Release|anycpu.Build.0 = Release|anycpu
+		{358670D0-B88D-49DF-A3F1-B9E26FAB3324}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{358670D0-B88D-49DF-A3F1-B9E26FAB3324}.Debug|anycpu.Build.0 = Debug|anycpu
+		{358670D0-B88D-49DF-A3F1-B9E26FAB3324}.Release|anycpu.ActiveCfg = Release|anycpu
+		{358670D0-B88D-49DF-A3F1-B9E26FAB3324}.Release|anycpu.Build.0 = Release|anycpu
+		{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}.Debug|anycpu.Build.0 = Debug|anycpu
+		{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}.Release|anycpu.ActiveCfg = Release|anycpu
+		{D930D6B5-5CFE-45AB-A79B-1F426BCEAE45}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
