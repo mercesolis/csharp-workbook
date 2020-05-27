@@ -16,19 +16,19 @@ namespace ToDoItems
             {
 
                 Console.WriteLine("Enter an item desciption:");
-                string description = Console.ReadLine();
+                string desc = Console.ReadLine();
                 Console.WriteLine("Enter the due date:");
                 string due = Console.ReadLine();
                 Console.WriteLine("Enter the priority:");
                 string priority = Console.ReadLine();
                 
 
-                ToDoItem item1 = new ToDoItem(description, due, priority);
+                ToDoItem item1 = new ToDoItem(desc, due, priority);
                 list.Add(item1);
                 ToDoItem.PrintList(list);
                 Console.WriteLine();
                 Console.Write("Add another item?: Y or N");
-                addItem = Console.ReadLine();
+                addItem = Console.ReadLine().ToUpper();
 
             }
             Console.ReadKey();
@@ -57,7 +57,7 @@ namespace ToDoItems
         public static void PrintList(List<ToDoItem> list)
         {
             Console.WriteLine(" Description | Due date | Priority");
-            Console.WriteLine("----+-----------------+------------");
+            Console.WriteLine("-------------+----------+----------");
             foreach (var l in list)
             {
                 Console.WriteLine($"{l.Description}, {l.DueDate}, {l.Priority}");

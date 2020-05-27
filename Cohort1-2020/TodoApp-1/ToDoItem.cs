@@ -10,8 +10,8 @@ namespace TodoApp1
 
         public int Id { get; private set; } 
         public string Description { get; set; }
-        public bool IsPending { get; private set; }
-        public ToDoItem (string description)
+        public bool IsPending { get; set; }
+        public ToDoItem(string description)
         {
             Description = description;
             IsPending = true;
