@@ -8,24 +8,18 @@
   <MonoDevelop.Ide.ItemProperties.PoCos PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Inventory PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.FizzBuzz PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TodoApp-1/ItemRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inventory/Program.cs">
     <Files>
-      <File FileName="TodoApp-1/Program.cs" Line="10" Column="25" />
-      <File FileName="TodoApp-1/App.cs" Line="56" Column="35" />
-      <File FileName="TodoApp-1/ItemRepository.cs" Line="25" Column="1" />
-      <File FileName="TodoApp-1/ConsoleUtils.cs" Line="59" Column="24" />
-      <File FileName="ToDoList/Program.cs" Line="26" Column="51" />
-      <File FileName="TodoApp-1/ToDoItem.cs" Line="16" Column="38" />
+      <File FileName="Inventory/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Cohort1-2020" expanded="True">
-            <Node name="Gradebook" expanded="True" />
-            <Node name="Inventory" expanded="True" />
-            <Node name="TodoApp-1" expanded="True">
-              <Node name="ItemRepository.cs" selected="True" />
+            <Node name="Inventory" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="TodoApp-1" expanded="True" />
           </Node>
         </State>
       </Pad>

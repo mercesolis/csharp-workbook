@@ -8,17 +8,21 @@ namespace Inventory
         public static void Main(string[] args)
         {
             List<IRentable> rentals = new List<IRentable>();
-            rentals.Add(new Boat("", 100));
+            rentals.Add(new Boat("Yacht", 100));
+            rentals.Add(new House("Yurt", 250, 5));
+            rentals.Add(new Car("BMW XB7", 400, 2));
+            
 
             foreach (var item in rentals)
             {
-                Console.WriteLine(item.GetRate());
+                Console.WriteLine($"{item.GetDescription()} {item.GetRate()}");
             }
+            Console.ReadKey();
         }
 
         interface IRentable
         {
-            decimal GetRate();
+            string GetRate();
             string GetDescription();
 
         }
@@ -31,7 +35,7 @@ namespace Inventory
 
             public Boat(string desc, decimal chargePerHour)
             {
-                this.chargePerHour = hours;
+                this.chargePerHour = chargePerHour;
                 this.desc = desc;
                 
 
@@ -42,48 +46,62 @@ namespace Inventory
                 return desc;
             }
 
-            public decimal GetRate()
+            public string GetRate()
             {
                 
-                return chargePerHour;
+                return $"Costs ${chargePerHour} per hour";
             }
 
-
+            
         }
 
         class House : IRentable
         {
+            private decimal chargePerWeek;
+            private string desc;
+            private int weeks;
+
+            public House(string desc, decimal chargePerWeek, int weeks)
+            {
+                this.desc = desc;
+                this.chargePerWeek = chargePerWeek;
+            }
 
             public string GetDescription()
             {
-                throw new NotImplementedException();
+                return desc;
             }
 
-            public decimal GetRate()
+            public string GetRate()
             {
-                throw new NotImplementedException();
+                return $"Costs ${chargePerWeek} per week";
             }
+
+            
         }
 
-        /*class Car : IRentable
+        class Car : IRentable
         {
-            private decimal rate;
+            private decimal chargePerDay;
             private string desc;
+            private int days;
 
-            public Car(decimal rate, string desc)
+            public Car(string desc, decimal chargePerDay, int days)
             {
-                rate 
+                this.desc = desc;
+                this.chargePerDay = chargePerDay;
             }
+
             public string GetDescription()
             {
-                throw new NotImplementedException();
+                return desc;
             }
 
-            public decimal GetRate()
+            public string GetRate()
             {
-                throw new NotImplementedException();
+                return $"Costs ${chargePerDay} per day";
             }
-        }*/
+        }
     }
     
 
